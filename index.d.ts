@@ -103,6 +103,8 @@ declare class TrelloMember {
 
     searchBoards(memberId: string): Promise<any>;
 
+    getTokens(memberId: string): Promise<any>;
+
 }
 
 declare class TrelloNotification {
